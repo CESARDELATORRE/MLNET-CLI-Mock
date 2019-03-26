@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellProgressBar", "ShellProgressBar\ShellProgressBar.csproj", "{4767E390-2159-470C-AE49-E75E2DDF80A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellProgressBar.Example", "ShellProgressBar.Example\ShellProgressBar.Example.csproj", "{25EEC6B1-4113-41F4-8181-674E4855F40A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{DEEB298E-2B68-4DDD-9BBA-8E4BFCB2AA30}"
+	ProjectSection(SolutionItems) = preProject
+		.build\MSBuild.Community.Tasks.dll = .build\MSBuild.Community.Tasks.dll
+		.build\MSBuild.Community.Tasks.targets = .build\MSBuild.Community.Tasks.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{314A5D2B-11E8-4BF3-BB64-B4E15399591C}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.bat = ..\build.bat
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLNET.CLI.Mock", "MLNET.CLI.Mock\MLNET.CLI.Mock.csproj", "{471BC062-AF3E-4F2D-BE21-7EEADC8516C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4767E390-2159-470C-AE49-E75E2DDF80A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4767E390-2159-470C-AE49-E75E2DDF80A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4767E390-2159-470C-AE49-E75E2DDF80A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4767E390-2159-470C-AE49-E75E2DDF80A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25EEC6B1-4113-41F4-8181-674E4855F40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25EEC6B1-4113-41F4-8181-674E4855F40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25EEC6B1-4113-41F4-8181-674E4855F40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25EEC6B1-4113-41F4-8181-674E4855F40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471BC062-AF3E-4F2D-BE21-7EEADC8516C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471BC062-AF3E-4F2D-BE21-7EEADC8516C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471BC062-AF3E-4F2D-BE21-7EEADC8516C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471BC062-AF3E-4F2D-BE21-7EEADC8516C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCB541F8-A83A-47B0-B6D8-CA94171BB7F1}
+	EndGlobalSection
+EndGlobal
